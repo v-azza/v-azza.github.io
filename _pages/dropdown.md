@@ -8,8 +8,8 @@ children:
   - title: my cat
     permalink: /mycat/
   - title: divider
-  - title: projects
-    permalink: /projects/
+  - title: games
+    permalink: /games/
   - title: divider
   - title: blog
     permalink: /blog/
