@@ -4,7 +4,7 @@ permalink: /repositories/
 title: repositories
 description: This pages lists my GitHub page, and some of my public repositories. At the moment I am working on simple security tools and private projects. I hope to update this with more content for you soon!
 nav: true
-nav_order: 4
+nav_order: 2
 ---
 
 {% if site.data.repositories.github_users %}

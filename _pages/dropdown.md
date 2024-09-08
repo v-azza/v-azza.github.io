@@ -2,7 +2,7 @@
 layout: page
 title: learn more
 nav: true
-nav_order: 8
+nav_order: 5
 dropdown: true
 children:
   - title: my cat
@@ -11,6 +11,6 @@ children:
   - title: games
     permalink: /games/
   - title: divider
-  - title: blog
-    permalink: /blog/
+  - title: publications
+    permalink: /publications/
 ---
