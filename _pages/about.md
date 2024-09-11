@@ -20,4 +20,4 @@ Welcome to my personal website.
 
 I am a Security Operations Analyst working for a market leader in Performing Rights Management, based in the United Kingdom.
 
-If you would like to keep in touch via. my social media, my Instagram is [here](https://www.instagram.com/viransilva/) and my LinkedIn is [here](https://www.linkedin.com/in/viransilva/).
+If you would like to keep in touch or donate to me to help support my work, links to do so are at the bottom of this page.
