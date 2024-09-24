@@ -11,6 +11,6 @@ children:
   - title: games
     permalink: /games/
   - title: divider
-  - title: publications
-    permalink: /publications/
+  - title: cv
+    permalink: /cv/
 ---
