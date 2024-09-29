@@ -13,11 +13,8 @@ I created a very simple Python script that will be stored locally on my Windows 
 This script works by creating seperate functions for each component of this script's utility. These components include:
 
 1. Loading the savings figures from savings.json.
-
 2. Saving the updated values to savings.json.
-
 3. Displaying the savings progress and current values.
-
 4. Main menu.
 
 Each of these functions are called before the main menu is presented. There is a function for the main menu which presents the user with some options to either edit the savings/goal values, give them a motivational speech or exit the script.
