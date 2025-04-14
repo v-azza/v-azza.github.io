@@ -4,6 +4,6 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
+  - v-azza/vstat
   - v-azza/pwdhelper 
-  - v-azza/v-azza.github.io 
-  - v-azza/carsavingscountdown
+  - v-azza/v-azza.github.io
