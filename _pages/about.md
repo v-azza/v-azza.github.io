@@ -18,7 +18,7 @@ social: true # includes social icons at the bottom of the page
 
 Welcome to my personal website. 
 
-I am a Security Operations Analyst working for a market leader in Performing Rights Management, based in the United Kingdom.
+I am a Security Operations person working for a market leader in Performing Rights Management, based in the United Kingdom.
 
 I've worked in Cyber Security for more than 7 years and I bring together a wealth of experience from a huge range of sectors into the work I do everyday. 
 
