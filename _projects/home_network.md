@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
+title: home network upgrade and lab
+description: I bought a new place. Naturally I had to kit it out with overkill networking. 
 img: assets/img/7.jpg
 redirect: https://unsplash.com
 importance: 3
-category: hidden
+category: fun
 ---
 
 Every project has a beautiful feature showcase page.

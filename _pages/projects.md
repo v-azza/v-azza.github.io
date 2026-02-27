@@ -5,7 +5,7 @@ permalink: /projects/
 description: This page will list some of my projects that I've decided to make public.
 nav: true
 nav_order: 3
-display_categories: [programming, fun, work]
+display_categories: [fun, programming, work]
 horizontal: false
 ---
 
