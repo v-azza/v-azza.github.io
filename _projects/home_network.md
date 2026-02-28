@@ -2,8 +2,8 @@
 layout: page
 title: home network upgrade and lab
 description: I bought a new place. Naturally I had to kit it out with overkill networking. 
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+img: assets/img/projects/rack-closeup.jpg
+redirect: false
 importance: 3
 category: fun
 ---
@@ -20,6 +20,20 @@ To give your project a background in the portfolio page, just add the img tag to
     description: a project with a background image
     img: /assets/img/12.jpg
     ---
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/rack-power_comms.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/stairs.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    <b>Left:</b> Set up.
+    <br><br>
+    <b>Right:</b> Where I put it.
+</div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
