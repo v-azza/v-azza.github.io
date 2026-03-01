@@ -8,13 +8,13 @@ importance: 3
 category: fun
 ---
 
-So I've recently done an adult thing and I've bought my first house. Go me. I decided that I want a well-connected household with gigabit internet. I also decided that I wanted a complete revamp of my home network, with all the bells and whistles of a homelab.
+So I've recently done an adult thing and I've bought my first house. Go me! I decided that I wanted a well-connected household with gigabit internet. I also decided that I wanted a complete revamp of my home network, with all the bells and whistles of a homelab.
 
-Before the move, my home netowrk was very simple setup of my ISP-provided router in bridging mode, connected to a pfSense box. My local internal network consisted of a Synology NAS device from around 2011, my Wifi AP, and my gaming PC. The NAS had a single-core 1.2 GHz processor, 256 MB of RAM, two internal 3.5 inch bays, each with maximum capacity of 3TB for a total of 6TB of storage. I chose to run it in RAID 1 (Disk mirroring). 
+Before the move, my home network was a very simple setup of my ISP-provided router in bridging mode, connected to a pfSense box. My local internal network consisted of a Synology NAS device from around 2011, my Wifi AP, and my gaming PC. The NAS had a single-core 1.2 GHz processor, 256 MB of RAM, two internal 3.5 inch bays, each with maximum capacity of 3TB for a total of 6TB of storage. I chose to run it in RAID 1 (Disk mirroring). 
 
-Luckily, I moved to a place which has it already rolled out. All it took was me selecting a provider that buult out Fibre to the Home (FTTH), and I would be off to the races. After selecting my provider I was yearning for an update to my home network. 
+Luckily, I moved to a place which has it already rolled out. All it took was me selecting a provider that built out Fibre to the Home (FTTH), and I would be off to the races. After selecting my provider I was yearning for an update to my home network. 
 
-Then came another interesting debacle: Where shoud I put all the hardware? There were a few candidates, ranging from all levels of difficulty - but I ended up selecting the cupboard underneath the stairs. There were no power sockets here, so I ended up hiring a qualified electrican to add some sockets there. Once done, I ensured that the ONT installation for my Fibre line terminated in that same place. I also paid a professional company to add CAT6 ethernet runs to all the bedrooms and the living room.
+Then came another interesting debacle: Where shoud I put all the hardware? There were a few candidates, ranging from all levels of difficulty - but I ended up selecting the cupboard underneath the stairs. There were no power sockets here, so I ended up hiring a qualified electrician to add some sockets there. Once done, I ensured that the ONT installation for my Fibre line terminated in that same place. I also paid a professional company to add CAT6 ethernet runs to all the bedrooms and the living room.
 
 When building out my network I decided on a few key philosophies that I wanted to stick to during design, build and deployment:
 
@@ -29,11 +29,11 @@ During this home network revamp - I wanted to get some quick wins/improvements:
 2. I wanted to onboard a device that can allow me to spin up and spin down VMs and Docker containers quickly and easily. This can give me some labbing potential, should I need to use it.
 
 
-Regarding parts selection, I found that I had several PC parts lying around and I decided to repurpose these, for use in my network. I selected a gateway device that could run pfSense, as I am familiar with the software and I am confident enough to administer it well and securely. 
+Regarding parts selection, I found that I had several PC parts laying around and I decided to repurpose these, for use in my network. I selected a gateway device that could run pfSense, as I am familiar with the software and I am confident enough to administer it well and securely. 
 
-With this in mind, I started by designing everything else. I found that I can hit philosophy point #1 and both my quick wins in network redesign, by having a dedicated machine running an OS that can serve as my storage server, but has VM and docker capabilties. I researched a lot of OSes and ways of doing this cleanly until I came across [Unraid](https://unraid.net/). It seemed to hit every requirement I needed, and there was only a one off licensing fee to use the software for life. There is ample doucmentaiton and online resources for it, and a massive online community using the tool. Unfortunately it is closed source and not FOSS. I decided to select this for my network.
+With this in mind, I started by designing everything else. I found that I can hit philosophy point #1 and both my quick wins in network redesign, by having a dedicated machine running an OS that can serve as my storage server, but has VM and docker capabilties. I researched a lot of OSes and ways of doing this cleanly until I came across [Unraid](https://unraid.net/). It seemed to hit every requirement I needed, and there was only a one off licensing fee to use the software for life. There is ample documentation and online resources for it, and a massive online community using the tool. Unfortunately, it is closed source and not FOSS. I decided to select this for my network.
 
-I drew up a quick network diagram, to see how it would all fit together and this helped me design the interfaces and networks I intended to use for everything. I find that drawing everything out helped me connect things correctly first time with little to no troubleshooting.
+I drew up a quick network diagram, to see how it would all fit together and this helped me design the interfaces and networks I intended to use. I find that drawing everything out helped me connect things correctly first time with little to no troubleshooting.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -44,7 +44,7 @@ I drew up a quick network diagram, to see how it would all fit together and this
     A simplfied network diagram.
 </div>
 
-Then I took the plunge. The point of no return. The moment that all homelabbers remmeber dearly. I decided to buy a server rack. 
+Then I took the plunge. The point of no return. The moment that all homelabbers remember dearly. I decided to buy a server rack. 
 
 I decided to get a [Startech 15U Open Frame Server Rack](https://www.startech.com/en-gb/server-management/4postrack15u). It included some casters (wheels) which I really appreciated. It was a great purchase and I think that it will last me for a very long time - and I have ample space to build out my estate should I choose to. Given that I decided to repurpose my desktop PC components and PC case, I kitted it out with a high-strength support base for the lowermost rack slot so I can my PC case on the bottom of the rack. Have a look at later pictures if you need to see what I mean. If I choose to get a UPS with heavy batteries, this shelf should be more than enough to handle that. This selection hits my philosophy points #2, #4 and #5 quite nicely. 
 
@@ -60,7 +60,7 @@ I decided to get a [Startech 15U Open Frame Server Rack](https://www.startech.co
     <b>Left:</b> A close up of the bits I have in my rack at the moment. <b>Right:</b> How the ONT and ethernet runs are set up.
 </div>
 
-During the build, I purchased an old PoE Netgear switch from Ebay that's long out of service. I stuck that in, and it helped me wire everything (including the ethernet runs) up. In the future I will use it to add some security cameras about the house. Unfortunately the fans run a bit louder than I want, so a potential upgrade for that swtich would be switching the fans out for ones that are quieter. 
+During the build, I purchased an old PoE Netgear switch from Ebay that's long out of service. I stuck that in, and it helped me wire everything up (including the ethernet runs). In the future, I will use it to add some security cameras about the house. Unfortunately, the fans run a bit louder than I want, so a potential upgrade for that swtich would be switching the fans out for ones that are quieter. 
 
 I think the risk is pretty low with this switch being long out of support, because it's firmly operating within my security boundary, and it doesn't really participate in VLANs. All I did was apply the latest firmware patch available and reviewed the config settings. 
 
@@ -76,6 +76,6 @@ I think the risk is pretty low with this switch being long out of support, becau
 
 In the future, I want to:
 
-1. Get a server mounting kit for ATX PCs so that instead of a large PC case sitting at the bottom of the rack, I can have the computer bits slot into the rack instead. 
+1. Get a server mounting kit for ATX PCs so instead of a large PC case sitting at the bottom of the rack, I can have the computer bits slot into the rack instead. 
 2. I want to see if there are any FOSS alternatives to Unraid that just works well out of the box, and is as feature-rich - but I am not there yet. 
 3. Add a home security network, and use a running VM as a NVR server to control all the cameras. It should be straight forward to wire via. PoE connections.
