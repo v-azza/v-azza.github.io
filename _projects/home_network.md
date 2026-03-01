@@ -12,7 +12,7 @@ So I've recently done an adult thing and I've bought my first house. Go me. I de
 
 Before the move, my home netowrk was very simple setup of my ISP-provided router in bridging mode, connected to a pfSense box. My local internal network consisted of a Synology NAS device from around 2011, my Wifi AP, and my gaming PC. The NAS had a single-core 1.2 GHz processor, 256 MB of RAM, two internal 3.5 inch bays, each with maximum capacity of 3TB for a total of 6TB of storage. I chose to run it in RAID 1 (Disk mirroring). 
 
-Luckily, I moved to a place which has it already rolled out. All it took was me selcting a provider that buult out Fibre to the Home (FTTH), and I would be off to the races. After selecting my provider I was yearning for an update to my home network. 
+Luckily, I moved to a place which has it already rolled out. All it took was me selecting a provider that buult out Fibre to the Home (FTTH), and I would be off to the races. After selecting my provider I was yearning for an update to my home network. 
 
 Then came another interesting debacle: Where shoud I put all the hardware? There were a few candidates, ranging from all levels of difficulty - but I ended up selecting the cupboard underneath the stairs. There were no power sockets here, so I ended up hiring a qualified electrican to add some sockets there. Once done, I ensured that the ONT installation for my Fibre line terminated in that same place. I also paid a professional company to add CAT6 ethernet runs to all the bedrooms and the living room.
 
@@ -53,14 +53,14 @@ I decided to get a [Startech 15U Open Frame Server Rack](https://www.startech.co
         {% include figure.liquid path="assets/img/projects/homenetwork/rack-closeup.jpg" title="Close up of server rack" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/projects/homenetwork/rack-power_comms.jpg" title="How the rack is set up from the wall" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/homenetwork/rack-power_comms0.jpg" title="How the rack is set up from the wall" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
     <b>Left:</b> A close up of the bits I have in my rack at the moment. <b>Right:</b> How the ONT and ethernet runs are set up.
 </div>
 
-I purchased an old PoE Netgear switch from Ebay that's long out of service. I stuck that in, and it helped me wire up In the future I will use it to add some security cameras about the house.
+I purchased an old PoE Netgear switch from Ebay that's long out of service. I stuck that in, and it helped me wire everything (including the ethernet runs) up. In the future I will use it to add some security cameras about the house.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
