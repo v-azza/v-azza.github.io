@@ -60,7 +60,9 @@ I decided to get a [Startech 15U Open Frame Server Rack](https://www.startech.co
     <b>Left:</b> A close up of the bits I have in my rack at the moment. <b>Right:</b> How the ONT and ethernet runs are set up.
 </div>
 
-I purchased an old PoE Netgear switch from Ebay that's long out of service. I stuck that in, and it helped me wire everything (including the ethernet runs) up. In the future I will use it to add some security cameras about the house.
+During the build, I purchased an old PoE Netgear switch from Ebay that's long out of service. I stuck that in, and it helped me wire everything (including the ethernet runs) up. In the future I will use it to add some security cameras about the house. Unfortunately the fans run a bit louder than I want, so a potential upgrade for that swtich would be switching the fans out for ones that are quieter. 
+
+I think the risk is pretty low with this switch being long out of support, because it's firmly operating within my security boundary, and it doesn't really participate in VLANs. All I did was apply the latest firmware patch available and reviewed the config settings. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -77,74 +79,3 @@ In the future, I want to:
 1. Get a server mounting kit for ATX PCs so that instead of a large PC case sitting at the bottom of the rack, I can have the computer bits slot into the rack instead. 
 2. I want to see if there are any FOSS alternatives to Unraid that just works well out of the box, and is as feature-rich - but I am not there yet. 
 3. Add a home security network, and use a running VM as a NVR server to control all the cameras. It should be straight forward to wire via. PoE connections.
-
-
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-
-
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/homenetwork/rack-power_comms.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/homenetwork/rack-stairs.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
-<div class="caption">
-    <b>Left:</b> Set up.
-    <br><br>
-    <b>Right:</b> Where I put it.
-</div>
-
-
-
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
