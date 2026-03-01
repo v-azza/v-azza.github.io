@@ -45,5 +45,5 @@ nav: false
 <div class="caption">
     <b>Left:</b> Sometimes we all ponder what our place is in life. Iana is no different. From her spot in the clouds, she can watch over all of the people and birds that make their way into her view. In this picture she is thinking about what life would be like as an outdoor cat.
     <br><br>
-    <b>Right:</b> When life gets too intense and overwhelming we all feel emotions of reclusiveness. Some of use deal with that intensity by taking a bath, or going to the pub, or even telling a loved one about their qualms. Iana chooses to hide. From life. In this picture she has concealed herself with the dirty clothes bin. She has likely done this because she saw a dog.
+    <b>Right:</b> When life gets too intense and overwhelming we all feel emotions of reclusiveness. Some of us deal with that intensity by exercising, taking a bath, or going to the pub, or even telling a loved one about their qualms. Iana chooses to hide. From life. In this picture she has concealed herself with the dirty clothes bin. She has likely done this because she is cold.
 </div>
