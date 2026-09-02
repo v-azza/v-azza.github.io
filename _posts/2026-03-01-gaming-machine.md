@@ -3,7 +3,7 @@ layout: post
 title: linux and my moving away from using windows at home entirely
 date: 2026-03-01 09:30:00
 description: I want to move away from having Windows devices in my household if I can avoid it. The next step in that journey was my beloved gaming machine.
-tags: software hardware tips
+tags: linux software hardware tips
 #categories: sample-posts
 ---
 
