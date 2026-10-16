@@ -7,4 +7,4 @@ tags: linux software hardware tips
 #categories: sample-posts
 ---
 
-Content coming soon!
+At this point, I have had a storage server running on my home netowork for a few years now, with a decent amount of storage. 
