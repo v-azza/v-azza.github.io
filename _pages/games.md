@@ -2,7 +2,7 @@
 layout: profiles
 permalink: /games/
 title: games
-description: In my spare time, occasionally I like to play computer games. This page will list some of the games that I have either completed, or been playing recently. 
+description: In my spare time, occasionally I like to play computer games. This page will list some of the games that I have either completed, or been playing recently.
 nav: false
 
 profiles:

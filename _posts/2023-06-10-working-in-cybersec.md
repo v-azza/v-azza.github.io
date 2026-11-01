@@ -5,7 +5,6 @@ date: 2023-06-10 18:30:00
 description: I get asked a lot about what it is like working in the Cyber Security industry. It has it's ups and downs but generally, I love it. This blog post will detail my Cyber Security career up until this point, I will talk about the challeneges I've faced, and any other bits of important information that I feel you should know. There is no one agreed way to get into this industry, so click to learn more about my career journey leading to now.
 tags: cybersec career me
 #categories: sample-posts
-
 ---
 
 I often get asked about what it is like working in an industry like this. What is the easiest route into this profession? What degree must one do to get into this? Are there any certifications that you should look at before committing yourself to this line of work? This blog post will attempt to answer these questions and more.

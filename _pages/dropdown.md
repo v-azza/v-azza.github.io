@@ -10,5 +10,4 @@ children:
   - title: divider
   - title: games
     permalink: /games/
-
 ---

@@ -4,4 +4,4 @@ The game's branching narrative structure allows for multiple paths and outcomes,
 
 Whether you're a fan of cinematic, story-driven games or simply interested in engaging with compelling and relevant social commentary, Detroit: Become Human is a must-play experience. The game's exploration of topics like artificial intelligence, discrimination, and the nature of consciousness is both captivating and relevant, offering players an immersive and impactful journey that will linger in their minds long after the credits roll. For those seeking a visually stunning, narratively rich, and philosophically stimulating adventure, Detroit: Become Human is a game that deserves your attention.
 
-I've played all the way through this games a few times, and I really loved the depth the game has, and how your choices have a direct impact on how the game ends. 
+I've played all the way through this games a few times, and I really loved the depth the game has, and how your choices have a direct impact on how the game ends.

@@ -9,5 +9,3 @@ related_publications: false
 ---
 
 I created a simple script to create passwords for the user from a single [Python script](https://github.com/v-azza/pwdhelper). This is a work in progress as of writing, but this does now work for a simple password, with a user defined length, number of digits and number of special characters.
-
-
