@@ -18,10 +18,12 @@ social: true # includes social icons at the bottom of the page
 
 Welcome to my personal website.
 
-I am a Cyber Security Operations person working for a market leader in flexible energy generation and renewables, based in the United Kingdom.
+I'm a cybersecurity professional working in the UK energy sector, with over eight years of experience across security operations, incident response, cloud security and security governance.
 
-I've worked in Cyber Security for more than 7 years and I bring together a wealth of experience from a huge range of sectors into the work I do everyday.
+My career has taken me across several industries, combining hands-on technical expertise with security leadership. I enjoy solving complex technical challenges, developing security capabilities and continuously expanding my knowledge.
 
-Beyond my technical work, I’m passionate about the outdoors. Whether I’m hiking, running or working on hands-on DIY projects, I love staying active and embracing new challenges. Jiu Jitsu keeps me moving and engaged in friendly competition.
+I use this website to share my thoughts on cybersecurity, technology, Linux and projects from my homelab.
 
-If you would like to keep in touch, feel free to use the social buttons at the bottom of the page. If you want to help support my work, please use the Ko-Fi link below.
+Outside of work, I enjoy hiking, Brazilian Jiu Jitsu and tackling DIY projects. I'm always interested in learning something new, whether technical or otherwise.
+
+Feel free to explore my projects and writing, or connect with me using the links below.
