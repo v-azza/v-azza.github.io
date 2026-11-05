@@ -2,3 +2,6 @@ Contact: mailto:security@vazza.org
 Expires: 2027-09-30T23:59:59Z
 Preferred-Languages: en
 Canonical: https://vazza.org/.well-known/security.txt
+
+# The above contact is for reporting security vulnerabilities on this site. 
+
